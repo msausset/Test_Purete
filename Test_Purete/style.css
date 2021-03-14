@@ -33,6 +33,18 @@ h1 {
     outline: none;
 }
 
+.startOver {
+    margin-top: 100px;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    outline: none;
+}
+
 .btnStart {
     text-align: center;
 }
@@ -47,7 +59,18 @@ button:hover {
     font-size: 30px;
 }
 
-.choice {
+.choiceYes {
+    margin-top: 20px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    outline: none;
+}
+.choiceNo {
     margin-top: 20px;
     text-align: center;
     height: 50px;
