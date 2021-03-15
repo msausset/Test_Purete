@@ -1,0 +1,83 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    margin-top: -17px;
+    background-color: darkslategray;
+}
+
+.page {
+    background-color: black;
+    width: 100vh;
+    min-height: 100vh;
+    margin: auto;
+    margin-top: -17px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding-top: 50px;
+}
+
+.startTest {
+    margin-top: 100px;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    outline: none;
+}
+
+.startOver {
+    margin-top: 100px;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    outline: none;
+}
+
+.btnStart {
+    text-align: center;
+}
+
+button:hover {
+    opacity: 75%;
+}
+
+.question {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.choiceYes {
+    margin-top: 20px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    outline: none;
+}
+.choiceNo {
+    margin-top: 20px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    outline: none;
+}
