@@ -1,0 +1,314 @@
+body {
+	margin: 0px;
+	background-color: #e4dede;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+
+body img {
+	margin-top: -10px;
+	margin-left: -20px;
+}
+
+/*-------------------------------------------------
+					Bande horizontale blanche
+-------------------------------------------------*/
+
+#bande_horizontale{
+width: 100%;
+height: 75px;
+background: #FFFFFF;
+}
+
+#bande_horizontale .round {
+border-radius: 50%;
+width: 25px;
+height: 25px;
+display: inline-block;
+background-color: #e4dede;
+color: white;
+text-align: center;
+margin-top: 20px;
+margin-left: 500px;
+font-weight: bold;
+}
+
+#bande_horizontale .projet {
+	color: #076294;
+	font-weight: bold;
+	margin-left: 540px;
+	margin-top: -20px;
+}
+
+#bande_horizontale .circle {
+position: absolute;
+border-radius: 50%;
+width: 25px;
+height: 25px;
+display: inline-block;
+background-color: #076294;
+color: white;
+text-align: center;
+margin-top: -40px;
+margin-left: 680px;
+font-weight: bold;
+}
+
+#bande_horizontale .coordonnees {
+	position: absolute;
+	color: #076294;
+	font-weight: bold;
+	margin-left: 720px;
+	margin-top: -38px;
+}
+
+#bande_horizontale .rond {
+position: absolute;
+border-radius: 50%;
+width: 25px;
+height: 25px;
+display: inline-block;
+background-color: #e4dede;
+color: white;
+text-align: center;
+margin-top: -40px;
+margin-left: 880px;
+font-weight: bold;
+}
+
+#bande_horizontale .confirmation {
+position: absolute;
+	color: #076294;
+	font-weight: bold;
+margin-left: 920px;
+	margin-top: -38px;
+}
+
+#rectangle_coordonnees {
+	border-radius: 1px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 15.36px 0.64px rgba(1, 1, 1, 0.51);
+  position: absolute;
+  width: 964px;
+  height: 393px;
+  z-index: 98;
+  margin-left: 302px;
+  margin-top: 30px;
+}
+
+.nom_prenom p {
+	font-size: 16px;
+	color: rgb(7, 98, 148);
+  font-weight: bold;
+  line-height: 1.2;
+  width: 132px;
+  height: 16px;
+  z-index: 103;
+  margin-left: 30px;
+}
+
+.rectangle_nom_prenom {
+background-color: rgb(228, 222, 222);
+  position: absolute;
+  width: 424px;
+  height: 39px;
+  z-index: 100;
+  border-radius: 19.5px;
+  margin-left: 25px;
+  outline: none;
+  border: none;
+  text-indent: 5px;
+}
+
+.adresse p {
+	font-size: 16px;
+	color: rgb(7, 98, 148);
+  font-weight: bold;
+  line-height: 1.2;
+  width: 132px;
+  height: 16px;
+  z-index: 103;
+  margin-left: 30px;
+  margin-top: 70px;
+}
+
+.rectangle_adresse {
+background-color: rgb(228, 222, 222);
+  position: absolute;
+  width: 424px;
+  height: 39px;
+  z-index: 100;
+  border-radius: 19.5px;
+  margin-left: 25px;
+  outline: none;
+  border: none;
+  text-indent: 5px;
+}
+
+.email p {
+	font-size: 16px;
+	color: rgb(7, 98, 148);
+  font-weight: bold;
+  line-height: 1.2;
+  width: 132px;
+  height: 16px;
+  z-index: 103;
+  margin-left: 30px;
+  margin-top: 70px;	
+}
+
+.rectangle_email {
+background-color: rgb(228, 222, 222);
+  position: absolute;
+  width: 424px;
+  height: 39px;
+  z-index: 100;
+  border-radius: 19.5px;
+  margin-left: 25px;
+  outline: none;
+  border: none;
+  text-indent: 5px;	
+}
+
+.telephone p {
+	font-size: 16px;
+	color: rgb(7, 98, 148);
+  font-weight: bold;
+  line-height: 1.2;
+  width: 132px;
+  height: 16px;
+  z-index: 103;
+  margin-left: 30px;
+  margin-top: 70px;		
+}
+
+.rectangle_telephone {
+background-color: rgb(228, 222, 222);
+  position: absolute;
+  width: 424px;
+  height: 39px;
+  z-index: 100;
+  border-radius: 19.5px;
+  margin-left: 25px;
+  outline: none;
+  border: none;
+  text-indent: 5px;	
+}
+
+.nom_societe p {
+	font-size: 16px;
+	color: rgb(7, 98, 148);
+  font-weight: bold;
+  line-height: 1.2;
+  width: 132px;
+  height: 16px;
+  z-index: 103;
+  margin-left: 500px;
+  margin-top: -290px;
+  white-space: nowrap;
+}
+
+.rectangle_nom_societe {
+background-color: rgb(228, 222, 222);
+  position: absolute;
+  width: 424px;
+  height: 39px;
+  z-index: 100;
+  border-radius: 19.5px;
+  margin-left: 497px;	
+  outline: none;
+  border: none;
+  text-indent: 5px;	
+}
+
+.numero_siret p {
+	font-size: 16px;
+	color: rgb(7, 98, 148);
+  font-weight: bold;
+  line-height: 1.2;
+  width: 132px;
+  height: 16px;
+  z-index: 103;
+  margin-left: 500px;
+  margin-top: 70px;
+
+}
+
+.rectangle_numero_siret {
+background-color: rgb(228, 222, 222);
+  position: absolute;
+  width: 424px;
+  height: 39px;
+  z-index: 100;
+  border-radius: 19.5px;
+  margin-left: 497px;
+  outline: none;
+  border: none;
+  text-indent: 5px;	
+}
+
+.champs {
+	font-size: 11px;
+	color: rgb(7, 98, 148);
+  font-weight: bold;
+  line-height: 1.2;
+  position: absolute;
+   width: 186px;
+  height: 10px;
+  margin-left: 768px;
+  margin-top: 230px;
+  z-index: 99;
+}
+
+.button {
+position: absolute;
+margin-left: 500px;
+margin-top: 428px;
+background-image: -moz-linear-gradient( 90deg, rgb(81,175,226) 0%, rgb(0,80,121) 100%);
+background-image: -webkit-linear-gradient( 90deg, rgb(81,175,226) 0%, rgb(0,80,121) 100%);
+background-image: -ms-linear-gradient( 90deg, rgb(81,175,226) 0%, rgb(0,80,121) 100%);
+box-shadow: 0px 0px 15.36px 0.64px rgba(1, 1, 1, 0.51);
+    width: 218px;
+  height: 64px;
+  z-index: 80;
+  border-radius: 32px;
+}
+
+.revenir {
+position: absolute;
+margin-left: 65px;
+margin-top: 18px;
+font-size: 24px;
+color: white;
+text-decoration: none;
+font-weight: bold;
+line-height: 1.2;
+z-index: 81;
+}
+
+.button1 {
+position: absolute;
+margin-left: 800px;
+margin-top: 428px;
+background-image: -moz-linear-gradient( 90deg, rgb(81,175,226) 0%, rgb(0,80,121) 100%);
+background-image: -webkit-linear-gradient( 90deg, rgb(81,175,226) 0%, rgb(0,80,121) 100%);
+background-image: -ms-linear-gradient( 90deg, rgb(81,175,226) 0%, rgb(0,80,121) 100%);
+box-shadow: 0px 0px 15.36px 0.64px rgba(1, 1, 1, 0.51);
+    width: 218px;
+  height: 64px;
+  z-index: 80;
+  border-radius: 32px;
+}
+
+
+
+.continuer {
+position: absolute;
+margin-left: 55px;
+margin-top: 18px;
+font-size: 24px;
+color: white;
+text-decoration: none;
+font-weight: bold;
+line-height: 1.2;
+z-index: 81;
+}
